@@ -24,7 +24,7 @@ int main()
         }
 
         else if (ch == ';' || ch == '{' || ch == '}' || ch == '(' ||
-                 ch == ')' || ch == '?' || ch == '@' || ch == '!' || ch == '%')
+                 ch == ')' || ch == '?' || ch == '@' || ch == '!' || ch == '%' || ch=='#')
         {
             fprintf(output, "%7d\t\t %7d\t\t Special symbol\t %7c\n", line, token++, ch);
         }
