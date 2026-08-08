@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main(){
+    printf("Hello world!");
+    
+    int j = 2334;
+    int d = 2;
+    int result = j / d ;
+    printf("%d",result);
+
+    return 0;
+}
